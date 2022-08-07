@@ -1,0 +1,39 @@
+*
+{
+    padding:0;
+    margin:0;
+}
+body{
+    background-image: url(https://img.freepik.com/free-vector/valentine-s-love-letter-background-with-glittery-heart_53876-111814.jpg?w=2000);
+    background-repeat: none;
+    background-origin: content-box;
+}
+.title
+{
+    margin-top: 50px;
+    text-align: center;
+    color: red;
+    margin-bottom: 50px;
+    font-size: 70px;
+}
+.Timing
+{
+    color:blue;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.score
+{
+    color:blue;
+    text-align: left;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+.content
+{
+    display:flex;
+    width:600px;
+    height:200px;
+    flex-wrap: wrap;
+    margin:auto;
+}
