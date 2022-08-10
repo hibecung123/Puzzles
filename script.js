@@ -135,7 +135,7 @@ function checkMatch()
     cardChosenid = []
     if(cardsWon.length==cardArray.length/2)
     {
-        resultdisplay.innerHTML='Win r hay vậy bạn '+username 
+        resultdisplay.innerHTML='Win rồi hay vậy bạn '+username 
         clearInterval(mytime)
         timedisplay.innerText='Còn tận '+time
     }
