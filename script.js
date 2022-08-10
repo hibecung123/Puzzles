@@ -53,7 +53,7 @@ const cardArray=
 
 var timedisplay=document.getElementById('timer')
 timedisplay.innerText='Ready'
-let time=60
+var time=window.prompt("Nhập số giây bạn muốn chơi")
 let mytime=setInterval(timing,1000)
 function timing()
 {
@@ -62,7 +62,7 @@ function timing()
     if(time===-1)
     {
         clearInterval(mytime)
-        alert('Het gio hehe')
+        alert('Het gio hehe \r\nHơi non he')
         setTimeout("location.reload(true);",1000)
     }
 }
@@ -129,6 +129,8 @@ function checkMatch()
     if(cardsWon.length==cardArray.length/2)
     {
         resultdisplay.innerHTML='Win r hehe'
+        clearInterval(mytime)
+        timedisplay.innerText='Còn tận '+time
     }
 
 }

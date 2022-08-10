@@ -37,3 +37,18 @@ body{
     flex-wrap: wrap;
     margin:auto;
 }
+.input
+{
+    color: blue;
+    font-weight: 600;
+    font-size: 40px;
+    display:inline-block;
+}
+.user-input
+{
+    border: 2px solid red;
+    height:30px;
+    width: 190px;
+    text-align: center;
+    
+}
