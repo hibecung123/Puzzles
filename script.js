@@ -52,7 +52,7 @@ const cardArray=
 ]
 
 var timedisplay=document.getElementById('timer')
-timedisplay.innerText='Ready'
+timedisplay.innerText='Ready hehe'
 var time=window.prompt("Nhập số giây bạn muốn chơi")
 let mytime=setInterval(timing,1000)
 function timing()
